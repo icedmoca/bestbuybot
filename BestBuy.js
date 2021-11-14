@@ -2,10 +2,10 @@ var bestBuyTimer = parseInt(localStorage.getItem('best-buy-count'))
 var secondsToRefresh = 1
 bestBuyTimer = isNaN(bestBuyTimer) ? 1 : bestBuyTimer
 setTimeout(() => {
-    var bestBuyXboxPath = '/site/pokemon-pokemon-tcg-shining-fates-elite-trainer-box-/6445827.p?skuId=6445827'
+    var bestBuyPath = '**SITE_URL_GOES_HERE**'
     var confirmNoWarranty = '/en/required-parts'
     var paymentChoice = '/en/basket'
-    console.log('Checking Pokimon Page...')
+    console.log('Checking Page...')
     if(
         location.pathname.indexOf(bestBuyPokiPath) > -1 ||
     ){
@@ -13,7 +13,7 @@ setTimeout(() => {
         console.log('Is Poki page')
         if(el.disabled){
             ++bestBuyTimer
-            secondsToRefresh = (70 + bestBuyTimer)
+            secondsToRefresh = (80 + bestBuyTimer)
             console.log(`Out of Stock... Reloading in ${secondsToRefresh} seconds`)
             localStorage.setItem('best-buy-count',`${bestBuyTimer}`)
             setTimeout(() => {
