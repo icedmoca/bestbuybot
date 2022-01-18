@@ -1,6 +1,6 @@
 # bestbuypokibot
 
-## This is against BestBuys TOS DON't USE
+## This is against BestBuys TOS DON'T USE
 ## For educational purposes only!
 
 Browser based (chrome recomended)
