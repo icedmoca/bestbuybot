@@ -1,4 +1,8 @@
 # bestbuypokibot
+
+## This is against BestBuys TOS DON't USE
+## For educational purposes only!
+
 Browser based (chrome recomended)
 
 You will need to leave a tab open. When the console is seen as available it will be added to your cart, default confirmations will be selected then you will be brought to the payment information page. Once it makes it to the payment information page a sound will play and an alert popup will appear.
