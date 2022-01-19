@@ -10,7 +10,7 @@ setTimeout(() => {
         location.pathname.indexOf(bestBuyPokiPath) > -1 ||
     ){
         const el = document.querySelector('.addToCartButton');
-        console.log('Is Poki page')
+        console.log('Page accessible')
         if(el.disabled){
             ++bestBuyTimer
             secondsToRefresh = (80 + bestBuyTimer)
