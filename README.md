@@ -1,6 +1,6 @@
-# bestbuypokibot
+# BestBuy Automated Buyer
 
-## This is against BestBuys TOS DON'T USE
+## THIS IS AGAINST BESTBUYS TOS, DON'T USE
 ## For educational purposes only!
 
 Browser based (chrome recomended)
